@@ -1,0 +1,9 @@
+{
+  "appId": "com.simpleai.steady",
+  "appName": "Steady",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile"
+  }
+}

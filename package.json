@@ -1,0 +1,18 @@
+{
+  "name": "steady-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Steady weight, food and training log for iOS",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "sync:ios": "npm run build && cap sync ios",
+    "open:ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  }
+}

@@ -1,0 +1,1 @@
+window.STEADY_CHAT_ENDPOINT = "";
